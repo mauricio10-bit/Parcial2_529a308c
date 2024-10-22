@@ -1,0 +1,50 @@
+.stats-container {
+    width: 70%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-logo {
+    width: 50px;
+    height: auto;
+  }
+  
+  .stat-row {
+    margin: 10px 0;
+  }
+  
+  .stat {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  
+  .bar-container {
+    display: flex;
+    margin: 10px 0;
+    height: 8px;
+    background-color: #e0e0e0;
+  }
+  
+  .bar {
+    height: 100%;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
